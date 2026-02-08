@@ -54,3 +54,12 @@
 # Completions & Tabulations
 - Tab autocompletion pour ecrire une commande
 - Up Arrow, Down Arrow
+
+# Files et Text editors
+
+- GNU nano
+- vi
+- gedit GUI text editor
+- emacs GUI or CLI text editor
+- nano <filenmae>  pour ouvrir un fichier avec nano en CLI 
+- vim <filename> , :q! quitter sans save
