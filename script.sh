@@ -34,7 +34,7 @@
 # -x signifie que le fichier est exécutable.
 # -z signifie que la chaîne de caractères est vide,
 # -n signifie que la chaîne de caractères n'est pas vide.
-# -s signifie que la chaîne de caractères est non nulle et non vide.
+# -s signifie que le fichier existe et n'est pas vide, permet aussi de masquer la saisie de l'utilisateur dans le terminal.
 # -ne -e "$file" signifie que le fichier n'existe pas.
 # ! signifie la négation, donc ! -e "$file" signifie que le fichier n'existe pas.
 
@@ -81,3 +81,14 @@
 # do
 #     echo "Le fruit est: $fruit"
 # done
+
+# i=0
+# while [ $i -le 5 ]
+# do
+#     echo "Iteration $i"
+#     ((i++))
+# done
+
+# echo "Fait moi ton nom >> :"
+read -p "Fait moi ton nom >> : " -s  name
+echo "Bonjour $name, bienvenue dans le monde du bash scripting!"
