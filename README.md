@@ -63,3 +63,21 @@
 - emacs GUI or CLI text editor
 - nano <filenmae>  pour ouvrir un fichier avec nano en CLI 
 - vim <filename> , :q! quitter sans save
+
+# Packages managers
+- apt -> deb , yum -> rpm (YellowDog Updater)
+- .deb pour les distros basés sur debian (Debian , Ubuntu , Linux Mint)
+- .rpm pour les distros Red Hat (Fedora , Centos )
+- rpm  (Red Hat Package Manager)
+- alien permet de convertir un package .deb en .rpm et vice versa
+- pour convertir en .deb
+```bash 
+   alien package.rpm 
+```
+- pour convertir en .rpm 
+```bash 
+   alien -r package.deb
+```
+- pour mettre à jour un package sudo apt update 
+- pour la mise à niveau sudo apt upgrade
+- PackageKit , Update Manager outil GUI pour afficher les updates de packages 
