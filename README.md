@@ -46,6 +46,58 @@
 - .. parent directory
 - . current directory
 - cd ../.. ex:  on est dans /home/black/Bureau on fait cd ../.. on revient dans home
+- autre type de shell : sh ,zsh , ksh ,tcsh , fish 
+- printenv SHELL permet de determiner le programme shell par defaut
+- application incluant la recuperation d information , navigation et manipulation des chemins et fichiers , affichage , compression,    archives , commandes reseau , monitoring , status , lancement des services
+
+# Shell Commands
+
+### 1 Recuperation d information
+- whoami -> le nom du user courant 
+- id -> l id du user courant
+- uname -> Os name
+- ps -> affiche les process en cours et leurs identifiants
+- top -> process en cours et l utilisation des ressources
+- df -> information sur le system de montage des fichiers
+- man -> manuel pour les commandes
+- date -> affiche la date
+
+### 2 Navigation , Manipulation  fichiers
+- cp -> copier un fichier
+- mv -> changer le nom d un fichier ou un dossier ou deplacer un fichier ou un dossier
+- rm -> supprimer un fichier
+- touch -> creer un fichier 
+- chmod -> change ou modifie les permissions
+- wc -> pour obtenir le nombre de ligne des mots dans un fichier
+- grep -> renvoie les lignes dans le model de correspondance dans des fichiers
+
+### 3  Navigation , Manipulation des directories
+- ls -> lister le contenu d un dossier courant 
+- find -> permet de rechercher un fichier correspondant à un model d arborescence
+- pwd -> imprime le repertoire actuel 
+- mkdir -> creer un repertoire
+- cd -> changer de repertoire
+- rmdir -> supprimer un repertoire 
+
+### 4 Afficher le contenu d un fichier , strings
+- cat -> affiche le contenu d un fichier
+- more -> affiche le contenu page par page
+- head -> affiche la premiere ligne d un fichier
+- tail -> affiche la derniere ligne d un fichier
+- echo -> affiche une chaine de caractere 
+
+### 5 Compression et Archivages 
+- tar -> compresser un ensemble de fichier 
+- zip -> compresser un ensemble de fichier
+- unzip -> decompresseer un ensemble de fichier
+
+### 6 Réseau 
+- hostname -> le nom de l hote 
+- ping -> envoyez des paquets à une url et imprime la reponse 
+- ifconfig -> affiche les interfaces reseaux 
+- curl -> affiche le contenu d un fichier dans une url 
+- wget -> permet de telecharger un fichier à partir d une url 
+
 
 # Diretories
 - pwd donne le chemin entier du dossier courant
