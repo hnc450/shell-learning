@@ -77,7 +77,11 @@
 - pwd -> imprime le repertoire actuel 
 - mkdir -> creer un repertoire
 - cd -> changer de repertoire
-- rmdir -> supprimer un repertoire 
+```bash
+  cp -r dossier1 dossier2 
+```
+- permet de copier le contenu d un dossier dans un autre sans pour autant copier le dossier en lui meme 
+- rmdir -> supprimer un repertoire (garentit qu on ne supprime pas accidentellement des repertoires ou des fichiers important)
 
 ### 4 Afficher le contenu d un fichier , strings
 - cat -> affiche le contenu d un fichier
