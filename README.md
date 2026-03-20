@@ -69,7 +69,10 @@
 - touch -> creer un fichier 
 - chmod -> change ou modifie les permissions
 - wc -> pour obtenir le nombre de ligne des mots dans un fichier
-- grep -> renvoie les lignes dans le model de correspondance dans des fichiers
+- grep (global regular expression print) -> renvoie les lignes dans le model de correspondance dans des fichiers
+- cat -> affiche le contenu d un fichier 
+- more -> affiche le contenu d un fichier page par page
+- head -> affiche les 10 premieres lignes d un fichiers 
 
 ### 3  Navigation , Manipulation des directories
 - ls -> lister le contenu d un dossier courant 
@@ -92,6 +95,10 @@
 
 ### 5 Compression et Archivages 
 - tar -> compresser un ensemble de fichier 
+```bash
+    tar -tf file.tar
+```
+- affiche le contenu du fichier tar sans le desarchiver
 - zip -> compresser un ensemble de fichier
 - unzip -> decompresseer un ensemble de fichier
 
@@ -137,3 +144,22 @@
 - pour mettre à jour un package sudo apt update 
 - pour la mise à niveau sudo apt upgrade
 - PackageKit , Update Manager outil GUI pour afficher les updates de packages 
+
+# Commandes réseaux et explications
+- ping 
+- url (Uniform Ressource Locator)
+- hostname -> affiche le nom de l host 
+- ip -> affiche le system et les interfaces réseaux
+- ping -> envoyez des paquets pour verifier la connectivité  d un host
+- curl -> permet d envoyez des datas sur une url 
+- wget -> permet de recuperer des fichiers contenu dans une url 
+```bash
+    ip addr show interface
+```
+- permet d afficher les informations supplementaires d une interface
+
+# I/O redirections 
+- 2> -> permet de sortir une entrée d erreur commande dans un fichier 
+- $(command) -> permet de renvoyer la sortie d une commande dans une variable
+- ; ->  permet de lancer des commandes en sequences
+- & -> permet de lancer des commandes en parallele
