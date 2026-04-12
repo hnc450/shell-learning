@@ -163,3 +163,9 @@
 - $(command) -> permet de renvoyer la sortie d une commande dans une variable
 - ; ->  permet de lancer des commandes en sequences
 - & -> permet de lancer des commandes en parallele
+
+# Automatisation des taches
+- crontab -e -> permet d editer le fichier cron
+- * * * * * * -> les lignes determine de 1-5 le temps d execution 6 la commande exe 
+- m h j mo js 
+- js -> 0 : dim , 1: lun , 2: mar , 3: mer , 4:jeu ,5: ven, 6: sam,7 : dim
